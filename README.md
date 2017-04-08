@@ -1,0 +1,1 @@
+Read [package.json5](./package.json5) for more info.

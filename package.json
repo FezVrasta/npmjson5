@@ -1,0 +1,15 @@
+{
+  "name": "npmjson5",
+  "version": "1.0.0",
+  "description": "Demo to show how it converts package.json5 to package.json in prepublish",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node index.js && npm run test",
+    "test": "echo \"test\""
+  },
+  "author": "Federico Zivolo <federico.zivolo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "json5": "^0.5.1"
+  }
+}
